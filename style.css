@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: lucida sans;
+  background-color: black;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.enter-1 {
+
+  margin-top: 15px;
+  
+}
+
+.enter-1 button {
+width: 100px;
+height: auto;
+border-radius: 5px;
+color : white;
+border: black;
+}
+
+.pemisah {
+  margin-top: 20px;
+  height: 1px;
+  width: 40%;
+background-color: black;
+}
+
+.tabel-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+
+
+table, tr, th, td{
+  border-collapse: collapse;
+  text-align: center;
+  border : 1px solid black;
+}
